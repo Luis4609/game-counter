@@ -8,12 +8,13 @@ function ScoreInputs() {
       <input
         type="number"
         id="team1ScoreInput"
-        value={team1InputValue}
-        onChange={handleTeam1InputChange}
+      //   value={team1InputValue}
+      //   onChange={handleTeam1InputChange}
+      // />
+      // <button onClick={() => handleIncrement("team1")}>
+      //   Add to Team 1
+      // </button>
       />
-      <button onClick={() => handleIncrement("team1")}>
-        Add to Team 1
-      </button>
     </div>
   )
 }
