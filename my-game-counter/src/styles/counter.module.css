@@ -1,0 +1,68 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.scoresContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.teamScores {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.teamScore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.teamLabel {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.scoreInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.scoreInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.scoreInput label {
+  margin-right: 10px;
+}
+
+.scoreInput input {
+  margin-right: 10px;
+  width: 50px;
+}
+
+.scoreInput button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.scoreInput button:hover {
+  opacity: 0.8;
+}
