@@ -2,6 +2,7 @@ import { Button, Typography } from "@mui/material";
 import React, { useState } from "react";
 import Input from "@mui/joy/Input";
 import Stack from "@mui/joy/Stack";
+import Box from "@mui/joy/Box";
 
 interface Team {
   title: string;
@@ -43,7 +44,9 @@ function Team({ title }: Team) {
           onChange={handleChange}
           value={teamScore}
         />
-        <Typography>Score: {teamScore}</Typography>
+        <Box component="span" sx={{ p: 2, border: "1px dashed grey" }}>
+          <Typography>Score: {teamScore}</Typography>
+        </Box>
         <Button type="submit" variant="outlined">
           +20!!
         </Button>

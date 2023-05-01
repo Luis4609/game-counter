@@ -1,15 +1,8 @@
-import { Button, Container, Typography } from "@mui/material";
-import React, { useState } from "react";
+import { Container } from "@mui/material";
 import Stack from "@mui/joy/Stack";
 import Team from "@/components/Team";
 
 function GamePage() {
-  const [team1, setTeam1] = useState(0);
-  const [teamScore, setTeamScore] = useState(0);
-
-  function handleChange(e: { target: { value: any } }) {
-    setTeamScore(e.target.value);
-  }
   return (
     <Container maxWidth="sm">
       <Stack
@@ -26,8 +19,7 @@ function GamePage() {
         justifyContent="center"
         alignItems="center"
         spacing={2}
-      >
-      </Stack>
+      ></Stack>
     </Container>
   );
 }
